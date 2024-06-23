@@ -12,24 +12,33 @@
     ></script>
   </head>
   <body class="grid-body">
-    <header class="sect-header">
-      <h1 class="text-align-center text-title">Mi Ecommerce</h1>
-    </header>
+    <filter class="sect-filter filter-father-principal">
+      <label for="comboFilter" class="mt-filter">Ordenar Por:</label>
+      <select
+        name="comboBox"
+        id="comboFilter"
+        class="mb-filter combobox-filter"
+      >
+        <option value="precio">Precio</option>
+        <option value="año">Año</option>
+        <option value="destacados">Destacados</option>
+      </select>
+    </filter>
 
     <menu class="sect-sidebar">
       <ul>
-        <li class="mt-mb-header-sidebar mt-15 mb-15 contacts-father-principal">
-          <div class="header-sidebar ml-header-sidebar">
+        <li class="mt-mb-filter-sidebar mt-15 mb-15 contacts-father-principal">
+          <div class="filter-sidebar ml-filter-sidebar">
             <div>
               <i class="fa-solid fa-car fa-lg" style="color: #ffffff"></i>
             </div>
             <div>
               <div>
-                <p class="font-header-sidebar">Electric Cars</p>
+                <p class="font-filter-sidebar">Electric Cars</p>
               </div>
             </div>
           </div>
-          <div class="mr-header-sidebar d-icon-bars">
+          <div class="mr-filter-sidebar d-icon-bars">
             <i class="fa-solid fa-bars fa-lg" style="color: #ffffff"></i>
           </div>
         </li>
